@@ -29,6 +29,8 @@ function addTodoItemToUI(todoItem){
             this.closest("li").remove();
         });
     }
+
+   
     const btnAddTodo = document.getElementById("btnAddTodo");
     btnAddTodo.setAttribute("data-bs-toggle", "modal");
     btnAddTodo.setAttribute("data-bs-target", "#todoModal");  
